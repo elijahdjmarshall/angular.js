@@ -8,6 +8,8 @@ Welcome to the AngularJS API docs page. These pages contain the AngularJS refere
 The documentation is organized into **{@link guide/module modules}** which contain various components of an AngularJS application.
 These components are {@link guide/directive directives}, {@link guide/services services}, {@link guide/filter filters}, {@link guide/providers providers}, {@link guide/templates templates}, global APIs, and testing mocks.
 
+There is also a {@link guide/index guide} with articles on various topics, and a list of external resources.
+
 <div class="alert alert-info">
 **Angular Prefixes `$` and `$$`**:
 
@@ -128,7 +130,7 @@ Use ngRoute to enable URL routing to your application. The ngRoute module suppor
 
 ## {@link ngAnimate ngAnimate}
 
-Use ngAnimate to enable animation features into your application. Various core ng directives will provide
+Use ngAnimate to enable animation features within your application. Various core ng directives will provide
 animation hooks into your application when ngAnimate is included. Animations are defined by using CSS transitions/animations
 or JavaScript callbacks.
 
@@ -140,7 +142,7 @@ or JavaScript callbacks.
       {@link ngAnimate#service Services / Factories}
     </td>
     <td>
-      Use {@link ngAnimate.$animate $animate} to trigger animation operations within your directive code.
+      Use {@link ng.$animate $animate} to trigger animation operations within your directive code.
     </td>
   </tr>
   <tr>
